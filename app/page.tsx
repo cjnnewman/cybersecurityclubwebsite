@@ -41,11 +41,7 @@ return (
           <div>
             <img className = 'imgAdjust' src="https://images.squarespace-cdn.com/content/v1/5d117ee8a4412c00019518d3/1570719511068-1TL6P2S3MHW79JSYE4CP/H4D.png?format=1500w" 
             alt="H4D Logo"></img>
-            <p>
-              We are currently researching the possibility of bringing a Department of Defense sponsored course to our university, 
-              this course is part of a program called 'Hack for Defense'. The program would give club members an opportunity to work directly 
-              with the military to address some of the nations security issues.
-            </p>
+            <p> We are currently researching the possibility of bringing a Department of Defense sponsored course to our university, this course is part of a program called &apos;Hack for Defense&apos;. The program would give club members an opportunity to work directly with the military to address some of the nations security issues.</p>
           </div>
           
       </div>
