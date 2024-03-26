@@ -2,32 +2,252 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+
+/* use to target larger than 500px (desktop)*/
+@media (min-width: 601px) {
+  /* styles.css */
+body {
+  background-image: url('../public/florida-gulf-coast-university_1025.jpg');
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
+  background-color: grey;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.showHide  { display: block; }
+#leftside > button { display: none; }
+
+.btn {
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+
+  /*For the large box at top of page*/
+  .topHeadBox{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid turquoise;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    /*For the main text in large box at top of page*/
+  .pageDiscFont {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #10B981, #3B82F6);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 3rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+  }
+
+    /*For the FGCU message at bottom of large box at top of page*/
+  .fgcuNameFont{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #10B981, #3B82F6);
+    font-size: 1rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+
+  }
+
+  .pageItemDiscBox {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pageItemBox {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pageItemBoxProjects {
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgAdjust {
+    float: left;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+
+  /* Anything with the a href will appear blue like a hyperlink*/
+  a {
+    color: blue;
   }
 }
 
+/* use to target smaller than 500px (mobile)*/
+@media (max-width: 600px) {
+  /* styles.css */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url('../public/florida-gulf-coast-university_1025.jpg');
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.showHide { display:none; }
+
+.btn {
+    cursor: pointer;
+    padding: 2px 2px;
+    font-size: x-small;
+    background-color: #4CAF50;
+    margin: 2px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+
+  /*For the large box at top of page*/
+  .topHeadBox{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid turquoise;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    /*For the main text in large box at top of page*/
+  .pageDiscFont {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #10B981, #3B82F6);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+  }
+
+    /*For the FGCU message at bottom of large box at top of page*/
+  .fgcuNameFont{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #10B981, #3B82F6);
+    font-size: 1rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+
+  }
+
+  .pageItemDiscBox {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pageItemBox {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pageItemBoxProjects {
+    display: flex;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgAdjust {
+    float: left;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  p {
+    font-size: small;
+  }
+  /* Anything with the a href will appear blue like a hyperlink*/
+  a {
+    color: blue;
   }
 }
