@@ -15,7 +15,7 @@ return (
 
   <body className='background'>
     <Navbar></Navbar>
-    <div>
+    <div className='mainDiv'>
     <div className='topHeadBox'>
       <h1 className='pageDiscFont'>The Official FGCU Cybersecurity Club Website</h1>
       <p className = 'fgcuNameFont'>Flordia Gulf Coast University, Home of the Eagles</p>

@@ -5,37 +5,45 @@
 
 
 
-/* use to target larger than 500px (desktop)*/
+/* use to target larger than 600px (desktop)*/
 @media (min-width: 601px) {
   /* styles.css */
-body {
-  background-image: url('../public/florida-gulf-coast-university_1025.jpg');
-  object-fit: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  width: auto;
-  height: 100%;
-  background-color: grey;
-}
-
-.showHide  { display: block; }
-#leftside > button { display: none; }
-
-.btn {
-    cursor: pointer;
-    padding: 8px 12px;
-    background-color: #4CAF50;
-    margin: 5px;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s;
+  body {
+    background-image: url('../public/florida-gulf-coast-university_1025.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    background-color: grey;
   }
-  
-  .btn:hover {
-    background-color: #45a049;
+
+  .showHide  { display: block; }
+  #leftside > button { display: none; }
+
+  .btn {
+      cursor: pointer;
+      padding: 8px 12px;
+      background-color: #4CAF50;
+      margin: 5px;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+  /*For the large box at top of page*/
+  .mainDiv{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 
   /*For the large box at top of page*/
@@ -45,9 +53,8 @@ body {
     padding: 10px;
     border: 5px solid turquoise;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -78,9 +85,8 @@ body {
     padding: 10px;
     border: 5px solid gray;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -91,9 +97,8 @@ body {
     padding: 10px;
     border: 5px solid gray;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -105,9 +110,8 @@ body {
     padding: 10px;
     border: 5px solid gray;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -167,9 +171,8 @@ body {
     padding: 10px;
     border: 5px solid turquoise;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -200,9 +203,8 @@ body {
     padding: 10px;
     border: 5px solid gray;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -213,9 +215,8 @@ body {
     padding: 10px;
     border: 5px solid gray;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -227,9 +228,8 @@ body {
     padding: 10px;
     border: 5px solid gray;
     background-color: white;
-    margin: 5;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
   }
