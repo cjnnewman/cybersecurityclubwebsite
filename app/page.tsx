@@ -5,7 +5,6 @@ import Image from 'next/image';
 import fgcu_image from '../public/florida-gulf-coast-university_1025.jpg'
 import Link from 'next/link';
 
-
 const Page: React.FC = () => {
 return (
 <html>
@@ -19,7 +18,7 @@ return (
     <div className='topHeadBox'>
       <h1 className='pageDiscFont'>The Official FGCU Cybersecurity Club Website</h1>
       <p className = 'fgcuNameFont'>Flordia Gulf Coast University, Home of the Eagles</p>
-    </div>z
+    </div>
 
     <div className = "pageItemDiscBox">
       <p id = 'projects'>Cybersecurity Club News and Current Projects</p>
